@@ -1,0 +1,26 @@
+# ----------------------
+# Flask
+# ----------------------
+flask
+flask-restful
+flask-jwt
+flask-login
+
+
+# ----------------------
+# Testing
+# ----------------------
+mock
+
+
+# ----------------------
+# Production Server
+# ----------------------
+gevent
+gunicorn
+mongoengine
+
+# ----------------------
+# Other
+# ----------------------
+youtube-dl

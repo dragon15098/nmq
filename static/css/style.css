@@ -1,0 +1,53 @@
+div {
+    color : red;
+    text-decoration: line-through;
+    background-color: azure;
+    font-size: 90px;
+    font-family: "Tempus Sans ITC";
+    font-weight: lighter;
+}
+.red,
+a:hover{
+    color: red;
+    width: 900px;
+    margin: auto;
+}
+
+.blue{
+    color: blue;
+}
+
+.yellow_bg{
+    background-color: yellow;
+}
+
+body{
+    background-color: azure;
+}
+
+.title:hover{
+    text-decoration: line-through;
+}
+
+a{
+    font-size: 50px;
+    color: red;
+    text-decoration: none;
+    transition: 10s all;
+
+}
+
+a:hover,
+a:active{
+    color: lightgoldenrodyellow;
+    font-size: 500px;
+}
+
+h1{
+    display: inline-block;
+    background: greenyellow;
+    width: 100px;
+    height: 200px;
+    padding: 30px;
+    margin: 70px;
+}

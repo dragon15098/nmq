@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food!!!</title>
+
+</head>
+<body>
+    <h1>Ngonnnnnnnnnn!!!</h1>
+    <ul>
+        {% for item in list_food %}
+        <li>
+            <img src="{{ item.src }}" width="500">
+            <h4>{{ item.title }}</h4>
+            <h5>{{ item.description }}</h5>
+        </li>
+        {% endfor %}
+    </ul>
+
+
+
+</body>
+</html>
